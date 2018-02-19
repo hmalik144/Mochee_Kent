@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#545252</color>
+    <color name="colorPrimaryDark">#3c3c3c</color>
+    <color name="colorAccent">#545252</color>
+    <color name="background_wedding">#e5e5e5</color>
+    <color name="design_service_background">#dbb368</color>
+    <color name="at_mochee">#3c3c3c</color>
+    <color name="itemtext1">#4d4e4f</color>
+    <color name="itemtext2">#a9a9a9</color>
+    <color name="sale_background">#94817e</color>
+
+    <color name="bespoke_bg1">#4cd1a1</color>
+    <color name="bespoke_bg2">#545252</color>
+    <color name="bespoke_bg3">#ededed</color>
+    <color name="bespoke_bg4">#dbb368</color>
+
+</resources>

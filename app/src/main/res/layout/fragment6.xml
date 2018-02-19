@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="KENT- UNITED KINGDOM"
+            android:textSize="19sp"
+            android:padding="20dp"
+            android:textStyle="bold"
+            android:textColor="#303132"/>
+
+            <TextView
+                android:textColor="#303132"
+                android:id="@+id/textView8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="For Help Call Us ON"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:padding="2dp"
+                android:text="Phone"
+                android:textColor="#303132"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+        <TextView
+            android:textColor="#303132"
+            android:id="@+id/textView6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="07530918403"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#303132"
+            android:gravity="center"
+            android:textSize="15sp"
+            android:padding="15dp"
+            android:text="Mon-Sun: 10:00am-7:00pm"
+             />
+
+        <View
+            android:layout_width="20dp"
+            android:layout_gravity="center"
+            android:layout_margin="6dp"
+            android:layout_height="2dp"
+            android:background="#303132"/>
+
+            <TextView
+                android:textColor="#303132"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:paddingBottom="3dp"
+                android:text="Email"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+        <TextView
+            android:textColor="#303132"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="sales@mochee.co.uk"
+            android:textSize="15sp" />
+
+            <View
+                android:layout_width="20dp"
+                android:layout_gravity="center"
+                android:layout_margin="12dp"
+                android:layout_height="2dp"
+                android:background="#303132"/>
+
+            <TextView
+                android:textColor="#303132"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:paddingBottom="3dp"
+                android:text="Company Number"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+        <TextView
+            android:textColor="#303132"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="09757119"
+            android:textSize="15sp" />
+
+            <View
+                android:layout_width="20dp"
+                android:layout_gravity="center"
+                android:layout_margin="12dp"
+                android:layout_height="2dp"
+                android:background="#303132"/>
+
+            <TextView
+                android:textColor="#303132"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="20dp"
+                android:layout_marginTop="20dp"
+                android:text="CUSTOMER CARE"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:textColor="#303132"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="15dp"
+                android:text="Do we provide International delivery?"
+                android:textSize="18sp" />
+
+            <TextView
+                android:textColor="#303132"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="We can arrange to have your blazer shipped anywhere in Europe for £9,99 and for the rest of the world for a charge of £16.99. Please note delivery dates can vary."
+                android:textSize="15sp" />
+
+            <TextView
+                android:textColor="#303132"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="15dp"
+                android:text="What is our return policy?"
+                android:textSize="18sp" />
+
+            <TextView
+                android:textColor="#303132"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="All item are non refundable, however we do give credit notes for the value once returned. "
+                android:textSize="15sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingTop="35dp"
+                android:paddingBottom="12dp">
+
+                <TextView
+                    android:textColor="#303132"
+                    android:id="@+id/textView10"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="Have any questions or concerns? &#xA; We’re always ready to help!"
+                    android:textSize="15sp" />
+
+                <EditText
+                    android:id="@+id/nameET"
+                    style="@style/Widget.AppCompat.EditText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="6dp"
+                    android:ems="10"
+                    android:hint="Name"
+                    android:inputType="textPersonName"
+                    android:minLines="7" />
+
+                <EditText
+                    android:id="@+id/editText2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:layout_margin="6dp"
+                    android:inputType="textEmailAddress"
+                    android:hint="Email"
+                    style="@style/Widget.AppCompat.EditText"/>
+
+                <EditText
+                    android:id="@+id/editText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:layout_margin="6dp"
+                    android:inputType="textPersonName"
+                    android:hint="Subject"
+                    style="@style/Widget.AppCompat.EditText"/>
+
+                <EditText
+                    android:id="@+id/editText4"
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:layout_margin="6dp"
+                    android:ems="10"
+                    android:hint="Message"
+                    android:inputType="text"
+                    android:gravity="top|left"
+                    style="@style/Widget.AppCompat.EditText" />
+
+                <Button
+                    android:id="@+id/button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="end"
+                    android:layout_marginEnd="6dp"
+                    android:layout_marginRight="6dp"
+                    android:background="#484950"
+                    android:text="Send"
+                    android:textColor="#ffffff" />
+
+
+            </LinearLayout>
+
+            <com.google.android.gms.maps.MapView
+                android:id="@+id/mapView"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:paddingBottom="52dp"/>
+
+
+        </LinearLayout>
+</ScrollView>
