@@ -12,7 +12,7 @@ public class Config {
 
     private Config() {}
 
-    public static final String PAYPAL_CLIENT_ID = "AXp9Ak3gihwYll_W1ny-jee4FQfCZ4dknR7aSCKPSpQWi4HRYg2CHCcJ7zvUL2dBLEulTke67-msQUwL";
+    public static final String PAYPAL_CLIENT_ID = "QVhwOUFrM2dpaHdZbGxfVzFueS1qZWU0RlFmQ1o0ZGtuUjdhU0NLUFNwUVdpNEhSWWcyQ0hDY0o3enZVTDJkQkxFdWxUa2U2Ny1tc1FVd0w=";
 
     public static final void clearForm(ViewGroup group) {
         for (int i = 0, count = group.getChildCount(); i < count; ++i) {
